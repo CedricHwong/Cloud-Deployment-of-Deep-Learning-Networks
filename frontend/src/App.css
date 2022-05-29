@@ -1,0 +1,20 @@
+
+
+.app {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+.img-wrapper {
+  max-width: min(100%, 50vh);
+  margin: auto;
+  padding: 20px;
+}
+img {
+  max-width: 100%;
+  min-height: 25vh;
+}
+.btns {
+  max-width: min(100%, 50vh);
+  margin: auto;
+}

@@ -12,12 +12,27 @@
 
 ---
 
-###Demonstration guide
+### Demonstration guide
 
 **Eenvironment**
-For Some Mac User: If you are using an Apple Silicon device: Please follow this page to complete the Tensorflow environment configuration.  https://developer.apple.com/metal/tensorflow-plugin/
+
+
+For Some Mac User: If you are using an Apple Silicon device: Please follow this page to complete the Tensorflow environment configuration.  
+https://developer.apple.com/metal/tensorflow-plugin/
 
 For the rest of the required packages, please check Line 6 - Line 18 in *./backend/App.py*
 
 
 **Running**
+
+
+Download this repository to your local device and run App.py
+It already contains a pre-trained model, if you want to replace your own model, please follow the save method provided by the official tutorial.
+https://tensorflow.google.cn/tutorials/keras/save_and_load
+
+
+When the main program is successfully executed, you will see an address in the output, please open it in a browser and test it.
+
+
+
+
